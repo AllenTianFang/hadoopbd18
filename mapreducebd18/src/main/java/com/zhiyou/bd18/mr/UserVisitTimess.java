@@ -19,6 +19,7 @@ public class UserVisitTimess {
 		private String[] infos;
 		private IntWritable oKey = new IntWritable();
 		private Text oValue = new Text();
+		
 	
 		@Override
 		protected void map(LongWritable key, Text value, Mapper<LongWritable, Text, IntWritable, Text>.Context context)
